@@ -6,11 +6,16 @@
 //
 
 import Cocoa
+import ChessToolkitUI
 
 class ViewController: NSViewController {
+
+  @IBOutlet var chessboardView: CTChessboardView!
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+    self.chessboardView.pieceSet = CTPieceSet(bundle: Bundle.main, name: "Default")
   }
 
   override var representedObject: Any? {

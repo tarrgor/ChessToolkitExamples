@@ -12,17 +12,14 @@
 		F214A816206417A700A4CC73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F214A814206417A700A4CC73 /* Main.storyboard */; };
 		F214A818206417A700A4CC73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F214A817206417A700A4CC73 /* Assets.xcassets */; };
 		F296CCB62451B4AE003C1107 /* ChessToolkitUI in Frameworks */ = {isa = PBXBuildFile; productRef = F296CCB52451B4AE003C1107 /* ChessToolkitUI */; };
-		F296CCB92451B5C6003C1107 /* PieceSets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F296CCB72451B5C6003C1107 /* PieceSets.xcassets */; };
-		F296CCBA2451B5C6003C1107 /* PieceSet_Default.plist in Resources */ = {isa = PBXBuildFile; fileRef = F296CCB82451B5C6003C1107 /* PieceSet_Default.plist */; };
 		F296CCBC2451B5EE003C1107 /* ChessToolkitUI in Frameworks */ = {isa = PBXBuildFile; productRef = F296CCBB2451B5EE003C1107 /* ChessToolkitUI */; };
-		F296CCBF2451C28A003C1107 /* PieceSets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F296CCBD2451C28A003C1107 /* PieceSets.xcassets */; };
-		F296CCC02451C28A003C1107 /* PieceSet_Default.plist in Resources */ = {isa = PBXBuildFile; fileRef = F296CCBE2451C28A003C1107 /* PieceSet_Default.plist */; };
+		F2C865E024545E6800BCA1A2 /* PieceSets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C865DF24545E6800BCA1A2 /* PieceSets.xcassets */; };
+		F2C865E224545E7500BCA1A2 /* PieceSets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C865E124545E7500BCA1A2 /* PieceSets.xcassets */; };
 		F2D1437F1DDE260600288DFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D1437E1DDE260600288DFC /* AppDelegate.swift */; };
 		F2D143811DDE260600288DFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D143801DDE260600288DFC /* ViewController.swift */; };
 		F2D143841DDE260600288DFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D143821DDE260600288DFC /* Main.storyboard */; };
 		F2D143861DDE260600288DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2D143851DDE260600288DFC /* Assets.xcassets */; };
 		F2D143891DDE260600288DFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D143871DDE260600288DFC /* LaunchScreen.storyboard */; };
-		F2DB05772450592C00345CCF /* PieceSet_Default.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2DB05762450592C00345CCF /* PieceSet_Default.plist */; };
 		F2EC939E2340C32200411542 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EC939D2340C32200411542 /* AppDelegate.swift */; };
 		F2EC93A02340C32200411542 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EC939F2340C32200411542 /* ViewController.swift */; };
 		F2EC93A22340C32300411542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2EC93A12340C32300411542 /* Assets.xcassets */; };
@@ -62,11 +59,9 @@
 		F214A817206417A700A4CC73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F214A819206417A700A4CC73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F217C2CE1E92569B00371996 /* ChessToolkit-Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "ChessToolkit-Playground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		F296CCB72451B5C6003C1107 /* PieceSets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = PieceSets.xcassets; path = "ChessToolkit-Example/PieceSets.xcassets"; sourceTree = SOURCE_ROOT; };
-		F296CCB82451B5C6003C1107 /* PieceSet_Default.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = PieceSet_Default.plist; path = "ChessToolkit-Example/PieceSet_Default.plist"; sourceTree = SOURCE_ROOT; };
-		F296CCBD2451C28A003C1107 /* PieceSets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = PieceSets.xcassets; path = "ChessToolkit-Example/PieceSets.xcassets"; sourceTree = SOURCE_ROOT; };
-		F296CCBE2451C28A003C1107 /* PieceSet_Default.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = PieceSet_Default.plist; path = "ChessToolkit-Example/PieceSet_Default.plist"; sourceTree = SOURCE_ROOT; };
 		F2B04063244E26E0002B2F18 /* ChessToolkit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ChessToolkit; path = ../../XCode/ChessToolkit; sourceTree = "<group>"; };
+		F2C865DF24545E6800BCA1A2 /* PieceSets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PieceSets.xcassets; sourceTree = "<group>"; };
+		F2C865E124545E7500BCA1A2 /* PieceSets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PieceSets.xcassets; sourceTree = "<group>"; };
 		F2D1437C1DDE260600288DFC /* ChessToolkitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessToolkitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D1437E1DDE260600288DFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2D143801DDE260600288DFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,7 +69,6 @@
 		F2D143851DDE260600288DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2D143881DDE260600288DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2D1438A1DDE260600288DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2DB05762450592C00345CCF /* PieceSet_Default.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PieceSet_Default.plist; sourceTree = "<group>"; };
 		F2EC939B2340C32200411542 /* ChessToolkit-macOS-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChessToolkit-macOS-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2EC939D2340C32200411542 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2EC939F2340C32200411542 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,8 +110,7 @@
 		F214A80F206417A700A4CC73 /* ChessToolkit-tvos-Example */ = {
 			isa = PBXGroup;
 			children = (
-				F296CCB82451B5C6003C1107 /* PieceSet_Default.plist */,
-				F296CCB72451B5C6003C1107 /* PieceSets.xcassets */,
+				F2C865E124545E7500BCA1A2 /* PieceSets.xcassets */,
 				F214A810206417A700A4CC73 /* AppDelegate.swift */,
 				F214A812206417A700A4CC73 /* ViewController.swift */,
 				F214A814206417A700A4CC73 /* Main.storyboard */,
@@ -153,7 +146,6 @@
 		F2D1437D1DDE260600288DFC /* ChessToolkit-Example */ = {
 			isa = PBXGroup;
 			children = (
-				F2DB05762450592C00345CCF /* PieceSet_Default.plist */,
 				F2FECCA2245048690052967B /* PieceSets.xcassets */,
 				F2D1437E1DDE260600288DFC /* AppDelegate.swift */,
 				F2D143801DDE260600288DFC /* ViewController.swift */,
@@ -168,8 +160,7 @@
 		F2EC939C2340C32200411542 /* ChessToolkit-macOS-Example */ = {
 			isa = PBXGroup;
 			children = (
-				F296CCBE2451C28A003C1107 /* PieceSet_Default.plist */,
-				F296CCBD2451C28A003C1107 /* PieceSets.xcassets */,
+				F2C865DF24545E6800BCA1A2 /* PieceSets.xcassets */,
 				F2EC939D2340C32200411542 /* AppDelegate.swift */,
 				F2EC939F2340C32200411542 /* ViewController.swift */,
 				F2EC93A12340C32300411542 /* Assets.xcassets */,
@@ -308,8 +299,7 @@
 			files = (
 				F214A818206417A700A4CC73 /* Assets.xcassets in Resources */,
 				F214A816206417A700A4CC73 /* Main.storyboard in Resources */,
-				F296CCBA2451B5C6003C1107 /* PieceSet_Default.plist in Resources */,
-				F296CCB92451B5C6003C1107 /* PieceSets.xcassets in Resources */,
+				F2C865E224545E7500BCA1A2 /* PieceSets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +310,6 @@
 				F2D143891DDE260600288DFC /* LaunchScreen.storyboard in Resources */,
 				F2D143861DDE260600288DFC /* Assets.xcassets in Resources */,
 				F2D143841DDE260600288DFC /* Main.storyboard in Resources */,
-				F2DB05772450592C00345CCF /* PieceSet_Default.plist in Resources */,
 				F2FECCA3245048690052967B /* PieceSets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,8 +320,7 @@
 			files = (
 				F2EC93A22340C32300411542 /* Assets.xcassets in Resources */,
 				F2EC93A52340C32300411542 /* Main.storyboard in Resources */,
-				F296CCC02451C28A003C1107 /* PieceSet_Default.plist in Resources */,
-				F296CCBF2451C28A003C1107 /* PieceSets.xcassets in Resources */,
+				F2C865E024545E6800BCA1A2 /* PieceSets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

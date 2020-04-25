@@ -723,6 +723,9 @@
                             <constraint firstItem="mxk-QJ-dDk" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="stW-if-7L0"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="chessboardView" destination="mxk-QJ-dDk" id="Tlr-Ct-LB6"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
