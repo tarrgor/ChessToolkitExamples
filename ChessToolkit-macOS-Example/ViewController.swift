@@ -15,7 +15,7 @@ class ViewController: NSViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    self.chessboardView.pieceSet = CTPieceSet(name: "Default")
+    self.chessboardView.pieceSet = PieceSet(name: "Default")
   }
 
   override var representedObject: Any? {
