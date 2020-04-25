@@ -16,7 +16,7 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    self.chessboardView.pieceSet = CTPieceSet(bundle: Bundle.main, name: "Default")
+    self.chessboardView.pieceSet = CTPieceSet(name: "Default")
   }
 
   override func didReceiveMemoryWarning() {
